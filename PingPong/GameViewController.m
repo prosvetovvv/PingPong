@@ -5,13 +5,13 @@
 //  Created by Vitaly Prosvetov on 18.02.2021.
 //
 
-#import "ViewController.h"
+#import "GameViewController.h"
 
-@interface ViewController ()
+@interface GameViewController ()
 
 @end
 
-@implementation ViewController
+@implementation GameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
