@@ -14,6 +14,7 @@
 		E1B7456F25DEA1FE00DE910E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B7456E25DEA1FE00DE910E /* Assets.xcassets */; };
 		E1B7457225DEA1FE00DE910E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B7457025DEA1FE00DE910E /* LaunchScreen.storyboard */; };
 		E1B7457525DEA1FE00DE910E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7457425DEA1FE00DE910E /* main.m */; };
+		E1B7458D25DF8E7100DE910E /* UIColor+ColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7458C25DF8E7100DE910E /* UIColor+ColorExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		E1B7457125DEA1FE00DE910E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1B7457325DEA1FE00DE910E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B7457425DEA1FE00DE910E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1B7458B25DF8E7100DE910E /* UIColor+ColorExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorExtensions.h"; sourceTree = "<group>"; };
+		E1B7458C25DF8E7100DE910E /* UIColor+ColorExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		E1B7456125DEA1FC00DE910E /* PingPong */ = {
 			isa = PBXGroup;
 			children = (
+				E1B7458F25DF8E7600DE910E /* UIColor+Extensions */,
 				E1B7456225DEA1FC00DE910E /* AppDelegate.h */,
 				E1B7456325DEA1FC00DE910E /* AppDelegate.m */,
 				E1B7456525DEA1FC00DE910E /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				E1B7457425DEA1FE00DE910E /* main.m */,
 			);
 			path = PingPong;
+			sourceTree = "<group>";
+		};
+		E1B7458F25DF8E7600DE910E /* UIColor+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7458B25DF8E7100DE910E /* UIColor+ColorExtensions.h */,
+				E1B7458C25DF8E7100DE910E /* UIColor+ColorExtensions.m */,
+			);
+			path = "UIColor+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 				E1B7456A25DEA1FC00DE910E /* GameViewController.m in Sources */,
 				E1B7456425DEA1FC00DE910E /* AppDelegate.m in Sources */,
 				E1B7457525DEA1FE00DE910E /* main.m in Sources */,
+				E1B7458D25DF8E7100DE910E /* UIColor+ColorExtensions.m in Sources */,
 				E1B7456725DEA1FC00DE910E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
